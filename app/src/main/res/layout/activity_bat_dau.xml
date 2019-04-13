@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BatDauActivity">
+    <TextView
+        android:id="@+id/tv_game_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_name"
+        android:textSize="50sp"
+        android:textColor="@color/text"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:shadowRadius="2"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+        android:id="@+id/bt_BatDau"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:text="BẮT ĐẦU"
+        android:textSize="40sp"
+        android:background="@drawable/btn_red"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        />
+    <Button
+        android:id="@+id/bt_thoat"
+        android:layout_marginTop="20dp"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:text="THOÁT"
+        android:textSize="40sp"
+        android:background="@drawable/btn_green"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        />
+
+</LinearLayout>

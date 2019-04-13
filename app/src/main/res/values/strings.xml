@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fast Math</string>
+    <string name="game_name">FAST MATH\n GAME</string>
+    <string name="name_reg_err">Họ tên không hợp lệ</string>
+    <string name="password_reg_err">Mật khẩu không hợp lệ</string>
+    <string name="phone_reg_err">Số điện thoại không hợp lệ</string>
+    <string name="password_confirm_reg_err">Xác nhận mật khẩu không hợp lệ</string>
+    <string name="username_reg_err">Tài khoản không hợp lệ</string>
+</resources>
+
